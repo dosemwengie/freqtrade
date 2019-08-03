@@ -13,6 +13,7 @@ class State(Enum):
     RUNNING = 1
     STOPPED = 2
     RELOAD_CONF = 3
+    RELOAD_STRATEGY = 4
 
 
 class RunMode(Enum):
